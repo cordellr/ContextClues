@@ -22,7 +22,7 @@ function accusationAlert(i) {
         var l = i % location.length;
         var w = i % weapon.length;
 
-        return alert("I accuse " + friend[f] + " with the " + weapon[w] + " in the " + location[l] + "!");
+        return alert(`I accuse ${friend[f]} with the ${weapon[w]} in the ${location[l]}!`);
     }
 }
 });
